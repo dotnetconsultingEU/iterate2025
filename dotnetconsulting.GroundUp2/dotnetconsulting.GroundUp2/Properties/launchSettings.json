@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "dotnetconsulting.GroundUp2": {
+      "commandName": "Project",
+      "commandLineArgs": "EnviromentName=Production"
+    }
+  }
+}

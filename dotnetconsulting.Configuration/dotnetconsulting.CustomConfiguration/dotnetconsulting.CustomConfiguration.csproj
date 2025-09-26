@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Authors>Thorsten Kansy</Authors>
+    <Company>dotnetconsulting by Thorsten Kansy</Company>
+    <Description>Das ist ein Demo für einen Custom Config Provider</Description>
+    <PackageLicenseUrl>www.dotnetconsulting.eu</PackageLicenseUrl>
+    <RepositoryUrl>www.dotnetconsulting.eu</RepositoryUrl>
+    <PackageId>dotnetconsulting.CustomSqConfiguration</PackageId>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.4" />
+  </ItemGroup>
+
+</Project>

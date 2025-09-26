@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <UserSecretsId>DemoAppfd8141d3-0022-48ae-bcd2-f2e269e8814b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="myAppSessions.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="myAppSessions.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

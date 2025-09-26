@@ -1,0 +1,25 @@
+{
+  "Logging": { // Default
+    "IncludeScopes ": false,
+    "LogLevel": {
+      "Default": "Error",
+      "Microsoft": "Warning"
+    },
+    "Debug": { // Debug provider.
+      "LogLevel": {
+        "Default": "Trace",
+        "Microsoft.Hosting": "Warning"
+      }
+    },
+    "Console": { // Console provider
+      "LogLevel": {
+        "Default": "Error"
+      }
+    },
+
+    "TestConfig": {
+      "Age": 100,
+      "Name": "Thorsten"
+    }
+  }
+}

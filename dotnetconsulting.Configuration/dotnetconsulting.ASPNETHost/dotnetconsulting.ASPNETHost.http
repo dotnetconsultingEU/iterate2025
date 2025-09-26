@@ -1,0 +1,9 @@
+@dotnetconsulting.ASPNETHost_HostAddress = http://localhost:5003
+
+### Hello World
+GET {{dotnetconsulting.ASPNETHost_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+GET {{dotnetconsulting.ASPNETHost_HostAddress}}
+Accept: application/json
